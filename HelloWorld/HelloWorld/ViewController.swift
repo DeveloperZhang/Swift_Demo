@@ -15,6 +15,16 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         let name = "Jim";
         print("name is \(name)");
+        
+        let optionalInteger: Int? = 42;
+        let optionalInteger2: Int! = nil;
+        let optionalInteger3: Int! = optionalInteger2;
+
+        
+        print("optionalInteger is \(String(describing: optionalInteger))")
+        print("optionalInteger2 is \(optionalInteger2)")
+        print("optionalInteger3 is \(optionalInteger3)")
+
     }
 
     override func didReceiveMemoryWarning() {
