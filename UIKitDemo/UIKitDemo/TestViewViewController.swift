@@ -15,6 +15,7 @@ class TestViewViewController: UIViewController {
         super.viewDidLoad()
         let next = self.subView1.next
         let next1 = self.view.next
+        let next2 = self.next
         print("")
     }
 }
