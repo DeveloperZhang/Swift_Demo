@@ -1,0 +1,457 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E8220DAD20FEE473008D734E /* MyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8220DAB20FEE473008D734E /* MyTableViewCell.swift */; };
+		E8220DAE20FEE473008D734E /* MyTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E8220DAC20FEE473008D734E /* MyTableViewCell.xib */; };
+		E8DA70BD20FE125100719ECB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8DA70BC20FE125100719ECB /* AppDelegate.swift */; };
+		E8DA70BF20FE125100719ECB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8DA70BE20FE125100719ECB /* ViewController.swift */; };
+		E8DA70C220FE125100719ECB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8DA70C020FE125100719ECB /* Main.storyboard */; };
+		E8DA70C420FE125100719ECB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8DA70C320FE125100719ECB /* Assets.xcassets */; };
+		E8DA70C720FE125100719ECB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8DA70C520FE125100719ECB /* LaunchScreen.storyboard */; };
+		E8DA70D220FE125100719ECB /* VZHttpSwiftToolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8DA70D120FE125100719ECB /* VZHttpSwiftToolTests.swift */; };
+		E8DA70DD20FE128900719ECB /* VZHttpTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8DA70DC20FE128900719ECB /* VZHttpTool.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E8DA70CE20FE125100719ECB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E8DA70B120FE125100719ECB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E8DA70B820FE125100719ECB;
+			remoteInfo = VZHttpSwiftTool;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E8220DAB20FEE473008D734E /* MyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewCell.swift; sourceTree = "<group>"; };
+		E8220DAC20FEE473008D734E /* MyTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyTableViewCell.xib; sourceTree = "<group>"; };
+		E8DA70B920FE125100719ECB /* VZHttpSwiftTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VZHttpSwiftTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8DA70BC20FE125100719ECB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E8DA70BE20FE125100719ECB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E8DA70C120FE125100719ECB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E8DA70C320FE125100719ECB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E8DA70C620FE125100719ECB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E8DA70C820FE125100719ECB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8DA70CD20FE125100719ECB /* VZHttpSwiftToolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VZHttpSwiftToolTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8DA70D120FE125100719ECB /* VZHttpSwiftToolTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VZHttpSwiftToolTests.swift; sourceTree = "<group>"; };
+		E8DA70D320FE125100719ECB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8DA70DC20FE128900719ECB /* VZHttpTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VZHttpTool.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E8DA70B620FE125100719ECB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8DA70CA20FE125100719ECB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E8DA70B020FE125100719ECB = {
+			isa = PBXGroup;
+			children = (
+				E8DA70BB20FE125100719ECB /* VZHttpSwiftTool */,
+				E8DA70D020FE125100719ECB /* VZHttpSwiftToolTests */,
+				E8DA70BA20FE125100719ECB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E8DA70BA20FE125100719ECB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E8DA70B920FE125100719ECB /* VZHttpSwiftTool.app */,
+				E8DA70CD20FE125100719ECB /* VZHttpSwiftToolTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E8DA70BB20FE125100719ECB /* VZHttpSwiftTool */ = {
+			isa = PBXGroup;
+			children = (
+				E8DA70BC20FE125100719ECB /* AppDelegate.swift */,
+				E8DA70BE20FE125100719ECB /* ViewController.swift */,
+				E8220DAB20FEE473008D734E /* MyTableViewCell.swift */,
+				E8220DAC20FEE473008D734E /* MyTableViewCell.xib */,
+				E8DA70DC20FE128900719ECB /* VZHttpTool.swift */,
+				E8DA70C020FE125100719ECB /* Main.storyboard */,
+				E8DA70C320FE125100719ECB /* Assets.xcassets */,
+				E8DA70C520FE125100719ECB /* LaunchScreen.storyboard */,
+				E8DA70C820FE125100719ECB /* Info.plist */,
+			);
+			path = VZHttpSwiftTool;
+			sourceTree = "<group>";
+		};
+		E8DA70D020FE125100719ECB /* VZHttpSwiftToolTests */ = {
+			isa = PBXGroup;
+			children = (
+				E8DA70D120FE125100719ECB /* VZHttpSwiftToolTests.swift */,
+				E8DA70D320FE125100719ECB /* Info.plist */,
+			);
+			path = VZHttpSwiftToolTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E8DA70B820FE125100719ECB /* VZHttpSwiftTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E8DA70D620FE125100719ECB /* Build configuration list for PBXNativeTarget "VZHttpSwiftTool" */;
+			buildPhases = (
+				E8DA70B520FE125100719ECB /* Sources */,
+				E8DA70B620FE125100719ECB /* Frameworks */,
+				E8DA70B720FE125100719ECB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VZHttpSwiftTool;
+			productName = VZHttpSwiftTool;
+			productReference = E8DA70B920FE125100719ECB /* VZHttpSwiftTool.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E8DA70CC20FE125100719ECB /* VZHttpSwiftToolTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E8DA70D920FE125100719ECB /* Build configuration list for PBXNativeTarget "VZHttpSwiftToolTests" */;
+			buildPhases = (
+				E8DA70C920FE125100719ECB /* Sources */,
+				E8DA70CA20FE125100719ECB /* Frameworks */,
+				E8DA70CB20FE125100719ECB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E8DA70CF20FE125100719ECB /* PBXTargetDependency */,
+			);
+			name = VZHttpSwiftToolTests;
+			productName = VZHttpSwiftToolTests;
+			productReference = E8DA70CD20FE125100719ECB /* VZHttpSwiftToolTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E8DA70B120FE125100719ECB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = VicentZ;
+				TargetAttributes = {
+					E8DA70B820FE125100719ECB = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					E8DA70CC20FE125100719ECB = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E8DA70B820FE125100719ECB;
+					};
+				};
+			};
+			buildConfigurationList = E8DA70B420FE125100719ECB /* Build configuration list for PBXProject "VZHttpSwiftTool" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E8DA70B020FE125100719ECB;
+			productRefGroup = E8DA70BA20FE125100719ECB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E8DA70B820FE125100719ECB /* VZHttpSwiftTool */,
+				E8DA70CC20FE125100719ECB /* VZHttpSwiftToolTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E8DA70B720FE125100719ECB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8DA70C720FE125100719ECB /* LaunchScreen.storyboard in Resources */,
+				E8220DAE20FEE473008D734E /* MyTableViewCell.xib in Resources */,
+				E8DA70C420FE125100719ECB /* Assets.xcassets in Resources */,
+				E8DA70C220FE125100719ECB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8DA70CB20FE125100719ECB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E8DA70B520FE125100719ECB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8DA70DD20FE128900719ECB /* VZHttpTool.swift in Sources */,
+				E8220DAD20FEE473008D734E /* MyTableViewCell.swift in Sources */,
+				E8DA70BF20FE125100719ECB /* ViewController.swift in Sources */,
+				E8DA70BD20FE125100719ECB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8DA70C920FE125100719ECB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8DA70D220FE125100719ECB /* VZHttpSwiftToolTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E8DA70CF20FE125100719ECB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E8DA70B820FE125100719ECB /* VZHttpSwiftTool */;
+			targetProxy = E8DA70CE20FE125100719ECB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E8DA70C020FE125100719ECB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E8DA70C120FE125100719ECB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E8DA70C520FE125100719ECB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E8DA70C620FE125100719ECB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E8DA70D420FE125100719ECB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E8DA70D520FE125100719ECB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E8DA70D720FE125100719ECB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VZHttpSwiftTool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vicentz.VZHttpSwiftTool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E8DA70D820FE125100719ECB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VZHttpSwiftTool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vicentz.VZHttpSwiftTool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E8DA70DA20FE125100719ECB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VZHttpSwiftToolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vicentz.VZHttpSwiftToolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VZHttpSwiftTool.app/VZHttpSwiftTool";
+			};
+			name = Debug;
+		};
+		E8DA70DB20FE125100719ECB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = VZHttpSwiftToolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vicentz.VZHttpSwiftToolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VZHttpSwiftTool.app/VZHttpSwiftTool";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E8DA70B420FE125100719ECB /* Build configuration list for PBXProject "VZHttpSwiftTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8DA70D420FE125100719ECB /* Debug */,
+				E8DA70D520FE125100719ECB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E8DA70D620FE125100719ECB /* Build configuration list for PBXNativeTarget "VZHttpSwiftTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8DA70D720FE125100719ECB /* Debug */,
+				E8DA70D820FE125100719ECB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E8DA70D920FE125100719ECB /* Build configuration list for PBXNativeTarget "VZHttpSwiftToolTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8DA70DA20FE125100719ECB /* Debug */,
+				E8DA70DB20FE125100719ECB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E8DA70B120FE125100719ECB /* Project object */;
+}
